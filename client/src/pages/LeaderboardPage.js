@@ -10,7 +10,7 @@ export const LeaderboardPage = () => {
 
   const getUser = async() => {
     try {
-        const res = await axios.post('http://localhost:8080/api/v1/user/getUserData', {
+        const res = await axios.post('https://puzzle-game-backend.onrender.com/api/v1/user/getUserData', {
             _id : localStorage.getItem('userID')
         })
         if(res.data.success){
@@ -95,7 +95,7 @@ React.useEffect(() => {
   
 
   const getData = async () => {
-    const res = await axios.post("http://localhost:8080/api/v1/user/getAllUsers");
+    const res = await axios.post("https://puzzle-game-backend.onrender.com/api/v1/user/getAllUsers");
     sortUsers(res.data.users);
   }
 

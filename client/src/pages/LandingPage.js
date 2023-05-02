@@ -9,7 +9,7 @@ export const LandingPage = (props) => {
         try {
             const id = props.curUserID;
             const newLvl = 1;
-            const res = await axios.post('http://localhost:8080/api/v1/user/update-level', {
+            const res = await axios.post('https://puzzle-game-backend.onrender.com/api/v1/user/update-level', {
                 _id : id,
                 newLevel : newLvl,
                 index : 0,

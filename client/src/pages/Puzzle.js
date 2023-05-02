@@ -21,7 +21,7 @@ const Puzzle1 = (props) => {
       const id = curUserID;
       const newLvl = 2;
       const res = await axios.post(
-        "http://localhost:8080/api/v1/user/update-level",
+        "https://puzzle-game-backend.onrender.com/api/v1/user/update-level",
         {
           _id: id,
           newLevel: newLvl,
@@ -115,7 +115,7 @@ const Puzzle2 = (props) => {
       const id = curUserID;
       const newLvl = 3;
       const res = await axios.post(
-        "http://localhost:8080/api/v1/user/update-level",
+        "https://puzzle-game-backend.onrender.com/api/v1/user/update-level",
         {
           _id: id,
           newLevel: newLvl,
@@ -221,7 +221,7 @@ const Puzzle3 = (props) => {
       const id = curUserID;
       const newLvl = 4;
       const res = await axios.post(
-        "http://localhost:8080/api/v1/user/update-level",
+        "https://puzzle-game-backend.onrender.com/api/v1/user/update-level",
         {
           _id: id,
           newLevel: newLvl,
@@ -325,7 +325,7 @@ const Puzzle4 = (props) => {
       const id = curUserID;
       const newLvl = 5;
       const res = await axios.post(
-        "http://localhost:8080/api/v1/user/update-level",
+        "https://puzzle-game-backend.onrender.com/api/v1/user/update-level",
         {
           _id: id,
           newLevel: newLvl,
@@ -420,7 +420,7 @@ const Puzzle5 = (props) => {
       const id = curUserID;
       const newLvl = 6;
       const res = await axios.post(
-        "http://localhost:8080/api/v1/user/update-level",
+        "https://puzzle-game-backend.onrender.com/api/v1/user/update-level",
         {
           _id: id,
           newLevel: newLvl,
@@ -518,7 +518,7 @@ const Puzzle6 = (props) => {
       const id = curUserID;
       const newLvl = 7;
       const res = await axios.post(
-        "http://localhost:8080/api/v1/user/update-level",
+        "https://puzzle-game-backend.onrender.com/api/v1/user/update-level",
         {
           _id: id,
           newLevel: newLvl,

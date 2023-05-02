@@ -21,7 +21,7 @@ const RegisterPage = () => {
     try {
       event.preventDefault();
       const res = await axios.post(
-        "http://localhost:8080/api/v1/user/register",
+        "https://puzzle-game-backend.onrender.com/api/v1/user/register",
         inputs
       );
       if (res.data.success) {
@@ -37,7 +37,7 @@ const RegisterPage = () => {
 
   const validToken = async () => {
     const res = await axios.post(
-      "http://localhost:8080/api/v1/user/getUserData",
+      "https://puzzle-game-backend.onrender.com/api/v1/user/getUserData",
       {
         _id: localStorage.getItem("userID"),
       }

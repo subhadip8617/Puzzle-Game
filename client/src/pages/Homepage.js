@@ -16,25 +16,25 @@ const HomePage = () => {
 
     const getUser = async() => {
         try {
-            const res = await axios.post('http://localhost:8080/api/v1/user/getUserData', {
+            const res = await axios.post('https://puzzle-game-backend.onrender.com/api/v1/user/getUserData', {
                 _id : localStorage.getItem('userID')
             })
             if(res.data.success){
                 setUser(res.data.user);
             }
             else{
-                alert("invalid token");
+                // alert("invalid token");
                 navigate('/login');
             }
         } catch (error) {
-            alert('Login Session Expired');
+            // alert('Login Session Expired');
             navigate('/login');
         }
     }
 
     React.useEffect(() => {
         if(!localStorage.getItem('userID')){
-            alert("login session expired");
+            // alert("login session expired");
             navigate('/login');
         }
         else{
