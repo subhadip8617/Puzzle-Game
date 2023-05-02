@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+/* .heading-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+.header{
+    margin: 10px;
+    padding: 3px 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(6, 21, 21, 0.694);
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+.outer-box{
+    width: 800px;
+    height: 450px;
+    margin: auto;
+    padding: 15px;
+    border: 2px solid rgba(0, 191, 255, 0.297);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.669);
+    color: rgb(250, 250, 250);
+    font-family: 'Inter', sans-serif;
+}
+
+.heading{
+    font-size: 3rem;
+    
+}
+
+#logoutbtn{
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+#links{
+    color: white;
+    font-style: italic;
+}
+
+.heading{
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+#finalpage{
+    justify-content: space-around;
+}
+
+#leaderboardbtn{
+    text-decoration: none;
+    font-style: italic;
+    color: aquamarine;
+    border: 1px solid rgb(14, 4, 4);
+    padding: 10px;
+    border-radius: 15px;
+    
+    
+}
+
+#leaderboardbtn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(173, 112, 33);
+    padding: 15px;
+    
+}
+
+#finalpagecongo{
+    font-family: 'Bungee Spice', cursive;
+    font-size: 60px;
+    padding-top: 150px;
+
+}
+
+.countContainer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    top : 100px;
+    right: 50px;
+}
+
+.leaderboardBox{
+    margin: 10px;
+}
+
+
+.landingpagetext{
+    color: blue;
+    font-family: 'Foldit', cursive;
+    font-size: 80px;
+}
+
+#landingpagebtn{
+    
+    background-color: rgba(182, 159, 159, 0.747);
+    height: 45px;
+    width: 110px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+#landingpagebtn:hover{
+    cursor: pointer;
+    background-color: rgba(37, 37, 32, 0.578);
+    color: white;
+}
+
+.landing-page-inner-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.treasure-body{
+    border: 1px solid rgb(17, 17, 17);
+    padding: 15px;
+    border-radius: 50px;
+    background-color: rgba(54, 16, 192, 0);
+    font-family: 'Aref Ruqaa Ink', serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgba(200, 236, 101, 0.701);
+}
+
+
+.treasure-hint{
+    font-family: 'Aref Ruqaa Ink', serif;
+    color: rgba(200, 236, 101, 0.701);
+}
